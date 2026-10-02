@@ -1,0 +1,13 @@
+{
+  "ver": "1.0.1",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "b807a6b8-ba81-4bf3-af82-11a54938cef4",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "UIPanel"
+  }
+}

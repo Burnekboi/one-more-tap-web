@@ -1,0 +1,14 @@
+{
+  "15f852fb-9193-4c98-bdbc-9dd4fcbcf26e@6c48a": {
+    "texture": {
+      "mipfilter": "none",
+      "wrapMode": "Clamp"
+    }
+  },
+  "15f852fb-9193-4c98-bdbc-9dd4fcbcf26e@3c318": {
+    "texture": {
+      "mipfilter": "none",
+      "wrapMode": "Repeat"
+    }
+  }
+}

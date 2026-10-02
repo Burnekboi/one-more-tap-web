@@ -1,0 +1,11 @@
+{
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "game",
+  "appid": "tt_one_more_tap_app_id",
+  "projectname": "One More Tap"
+}

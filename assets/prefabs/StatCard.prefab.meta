@@ -1,0 +1,13 @@
+{
+  "ver": "1.0.1",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "6a9fc1c2-5ed0-436d-a35e-e0973621d114",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "StatCard"
+  }
+}

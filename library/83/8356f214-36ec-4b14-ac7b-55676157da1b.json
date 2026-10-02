@@ -1,0 +1,228 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "UIPopup",
+    "data": {
+      "__id__": 1
+    },
+    "persistent": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "UIPopup",
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 8
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 13
+      }
+    ],
+    "_layer": 1107296256,
+    "_prefab": {
+      "__id__": 14
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PopupTitle",
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 180,
+      "z": 0
+    },
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 500,
+      "height": 40
+    }
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_string": "MODAL POPUP",
+    "_fontSize": 32,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PopupContent",
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      }
+    ],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 20,
+      "z": 0
+    },
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 500,
+      "height": 180
+    }
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_string": "Modal message and details go here.",
+    "_fontSize": 22,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 212,
+      "g": 212,
+      "b": 216,
+      "a": 255
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "CloseButton",
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 11
+      }
+    ],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": -170,
+      "z": 0
+    },
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 8
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 260,
+      "height": 60
+    }
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 8
+    },
+    "target": {
+      "__id__": 8
+    },
+    "interactable": true,
+    "zoomScale": 1.05
+  },
+  {
+    "__type__": "43015qRSbhGy4Sq89bOdGdi",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 8
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 580,
+      "height": 480
+    }
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "isAlignHorizontalCenter": true,
+    "isAlignVerticalCenter": true,
+    "horizontalCenter": 0,
+    "verticalCenter": 0
+  },
+  {
+    "__type__": "cc.PrefabInfo"
+  }
+]

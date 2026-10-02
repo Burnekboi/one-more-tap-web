@@ -1,0 +1,293 @@
+{
+  "version": "1.0.1",
+  "map": {
+    "prefabs": {
+      "time": 1790017407627.9126,
+      "uuid": "42ae6bea-3ea2-45b8-a8db-a8197f90fd3c"
+    },
+    "scripts": {
+      "time": 1790017407466.8494,
+      "uuid": "06fcbf8c-63b1-4b9b-a456-60638019e60a"
+    },
+    "scripts\\challenges": {
+      "time": 1790017407419.5403,
+      "uuid": "82748610-ebf4-48bd-aa48-3ea3abdeadef"
+    },
+    "scripts\\core": {
+      "time": 1790017407371.6843,
+      "uuid": "b9247917-cd87-405f-a37f-65b3dca3f468"
+    },
+    "scripts\\entities": {
+      "time": 1790046240665.4111,
+      "uuid": "b2693649-dc49-4c9d-a7af-aa9ad1fdc84a"
+    },
+    "scripts\\template": {
+      "time": 1790017407279.365,
+      "uuid": "0a62b35c-7637-479c-a949-161aa13773ee"
+    },
+    "scripts\\ui": {
+      "time": 1790017407561.77,
+      "uuid": "942acf73-2984-45e8-a24d-adbffdb8830a"
+    },
+    "scripts\\GameManager.ts": {
+      "time": 1790017407181.8987,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746761"
+    },
+    "scripts\\GameRoot.ts": {
+      "time": 1790196670267.191,
+      "uuid": "51bd5a45-7f77-4ace-83b2-50e1ea118018"
+    },
+    "scripts\\tiktok.d.ts": {
+      "time": 1790017407229.5642,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce74676c"
+    },
+    "scripts\\challenges\\challenges.ts": {
+      "time": 1790125208112.4287,
+      "uuid": "98e555d1-e316-4529-ab83-176837e05e26"
+    },
+    "scripts\\challenges\\dailySeed.ts": {
+      "time": 1790017407387.7747,
+      "uuid": "808767b5-56ce-49a5-a4a6-a520da38e8c5"
+    },
+    "scripts\\challenges\\weirdStages.ts": {
+      "time": 1790048054125.3567,
+      "uuid": "6b7bfb5a-10c8-454f-a74a-46eccfa20697"
+    },
+    "scripts\\core\\ctx.ts": {
+      "time": 1790022821729.8064,
+      "uuid": "8a644de5-ab96-48a8-ae7c-7a202fcab7f9"
+    },
+    "scripts\\core\\flow.ts": {
+      "time": 1790022914302.9282,
+      "uuid": "12acfb72-6fc0-44e7-a64b-598441dc0f1e"
+    },
+    "scripts\\core\\MathUtil.ts": {
+      "time": 1790021606142.458,
+      "uuid": "1db58745-56db-45ed-a105-1e74299f73d2"
+    },
+    "scripts\\core\\Music.ts": {
+      "time": 1790156008367.8403,
+      "uuid": "ae09521d-8374-429a-a401-6a80f2476734"
+    },
+    "scripts\\core\\platform.ts": {
+      "time": 1790157326704.1326,
+      "uuid": "3d8f7f37-eba1-49d3-acc8-182f3aab9ae1"
+    },
+    "scripts\\core\\SaveManager.ts": {
+      "time": 1790153205182.2917,
+      "uuid": "17fcb9cf-8742-466c-aa78-62e5271307ad"
+    },
+    "scripts\\entities\\Particle.ts": {
+      "time": 1790017407450.1729,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce74676a"
+    },
+    "scripts\\entities\\Target.ts": {
+      "time": 1790110284240.4404,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746769"
+    },
+    "scripts\\entities\\TimerBar.ts": {
+      "time": 1790023127886.3164,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746768"
+    },
+    "scripts\\template\\achievements.ts": {
+      "time": 1790044031984.152,
+      "uuid": "670e73a3-5cb9-4ff6-a38b-cb10826b001b"
+    },
+    "scripts\\template\\constants.ts": {
+      "time": 1790124946516.5059,
+      "uuid": "be92c329-28d3-46b0-a6c9-497b6f25ad7f"
+    },
+    "scripts\\template\\models.ts": {
+      "time": 1790115489193.5625,
+      "uuid": "01911cb4-0a68-4bf6-a2f9-5f53581d419a"
+    },
+    "scripts\\ui\\AchievementsPanel.ts": {
+      "time": 1790017407498.342,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746766"
+    },
+    "scripts\\ui\\ButtonController.ts": {
+      "time": 1790017407466.8494,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746762"
+    },
+    "scripts\\ui\\Dashboard.ts": {
+      "time": 1790017407498.342,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746763"
+    },
+    "scripts\\ui\\NeonBackground.ts": {
+      "time": 1790023664609.9856,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce74676b"
+    },
+    "scripts\\ui\\PopupManager.ts": {
+      "time": 1790017407486.9194,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746764"
+    },
+    "scripts\\ui\\SettingsPanel.ts": {
+      "time": 1790017407514.4175,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746765"
+    },
+    "scripts\\ui\\UIManager.ts": {
+      "time": 1790017407526.0798,
+      "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746767"
+    },
+    "prefabs.meta": {
+      "time": 1790019265239.4773
+    },
+    "scripts.meta": {
+      "time": 1790019265240.4766
+    },
+    "scripts\\challenges.meta": {
+      "time": 1790019265241.4773
+    },
+    "scripts\\core.meta": {
+      "time": 1790019265242.6711
+    },
+    "scripts\\entities.meta": {
+      "time": 1790019265242.6711
+    },
+    "scripts\\template.meta": {
+      "time": 1790019265246.85
+    },
+    "scripts\\ui.meta": {
+      "time": 1790019265248.847
+    },
+    "scripts\\tiktok.d.ts.meta": {
+      "time": 1790019265255.375
+    },
+    "scripts\\GameManager.ts.meta": {
+      "time": 1790019265268.1858
+    },
+    "scripts\\GameRoot.ts.meta": {
+      "time": 1790019265271.7002
+    },
+    "scripts\\challenges\\challenges.ts.meta": {
+      "time": 1790019265272.7107
+    },
+    "scripts\\challenges\\dailySeed.ts.meta": {
+      "time": 1790019265273.7102
+    },
+    "scripts\\challenges\\weirdStages.ts.meta": {
+      "time": 1790019265274.709
+    },
+    "scripts\\core\\ctx.ts.meta": {
+      "time": 1790019265282.9873
+    },
+    "scripts\\core\\flow.ts.meta": {
+      "time": 1790019265288.1387
+    },
+    "scripts\\core\\MathUtil.ts.meta": {
+      "time": 1790019265289.137
+    },
+    "scripts\\core\\Music.ts.meta": {
+      "time": 1790019265290.1372
+    },
+    "scripts\\core\\platform.ts.meta": {
+      "time": 1790019265291.6455
+    },
+    "scripts\\core\\SaveManager.ts.meta": {
+      "time": 1790019265293.6545
+    },
+    "scripts\\entities\\Particle.ts.meta": {
+      "time": 1790019265307.4219
+    },
+    "scripts\\entities\\Target.ts.meta": {
+      "time": 1790019265308.423
+    },
+    "scripts\\entities\\TimerBar.ts.meta": {
+      "time": 1790019265310.4233
+    },
+    "scripts\\template\\achievements.ts.meta": {
+      "time": 1790019265311.9304
+    },
+    "scripts\\template\\constants.ts.meta": {
+      "time": 1790019265312.937
+    },
+    "scripts\\template\\models.ts.meta": {
+      "time": 1790019265329.717
+    },
+    "scripts\\ui\\AchievementsPanel.ts.meta": {
+      "time": 1790019265330.7166
+    },
+    "scripts\\ui\\ButtonController.ts.meta": {
+      "time": 1790019265332.222
+    },
+    "scripts\\ui\\Dashboard.ts.meta": {
+      "time": 1790019265333.2312
+    },
+    "scripts\\ui\\NeonBackground.ts.meta": {
+      "time": 1790019265334.4658
+    },
+    "scripts\\ui\\PopupManager.ts.meta": {
+      "time": 1790019265344.7659
+    },
+    "scripts\\ui\\SettingsPanel.ts.meta": {
+      "time": 1790019265345.7642
+    },
+    "scripts\\ui\\UIManager.ts.meta": {
+      "time": 1790019265346.7654
+    },
+    "Main.scene": {
+      "time": 1790020452645.8662,
+      "uuid": "4c0d371f-6eba-4feb-acc8-1abf1ce5af65"
+    },
+    "prefabs\\StatCard.prefab": {
+      "time": 1790019273698.919,
+      "uuid": "6a9fc1c2-5ed0-436d-a35e-e0973621d114"
+    },
+    "prefabs\\UIButton.prefab": {
+      "time": 1790019273687.7214,
+      "uuid": "92a2112c-d78b-4ea5-a4c6-c7094e6f0404"
+    },
+    "prefabs\\UIPanel.prefab": {
+      "time": 1790019273696.784,
+      "uuid": "b807a6b8-ba81-4bf3-af82-11a54938cef4"
+    },
+    "prefabs\\UIPopup.prefab": {
+      "time": 1790019273695.7886,
+      "uuid": "8356f214-36ec-4b14-ac7b-55676157da1b"
+    },
+    "migrate-canvas.ts": {
+      "time": 1790022373203.2676,
+      "uuid": "7957dedf-8cb9-4c8f-9828-626bcf96ebde"
+    },
+    "Main.scene.meta": {
+      "time": 1790020452649.8645
+    },
+    "migrate-canvas.ts.meta": {
+      "time": 1790019273614.6562
+    },
+    "prefabs\\UIButton.prefab.meta": {
+      "time": 1790019273694.7847
+    },
+    "prefabs\\UIPopup.prefab.meta": {
+      "time": 1790019273702.4375
+    },
+    "prefabs\\UIPanel.prefab.meta": {
+      "time": 1790019273705.447
+    },
+    "prefabs\\StatCard.prefab.meta": {
+      "time": 1790019273706.444
+    },
+    "scripts\\entities\\Confetti.ts.meta": {
+      "time": 1790046240676.4102
+    },
+    "scripts\\entities\\Confetti.ts": {
+      "time": 1790046831160.45,
+      "uuid": "f01dbe22-37cd-47d1-af20-426d52673b2e"
+    },
+    "resources.meta": {
+      "time": 1790114146750.6833
+    },
+    "resources": {
+      "time": 1790114146751.646,
+      "uuid": "5421654f-9c20-4d2c-a530-d6cd7a9a10a8"
+    },
+    "resources\\fuckyoutrophy.png.meta": {
+      "time": 1790115045771.965
+    },
+    "resources\\fuckyoutrophy.png": {
+      "time": 1790113680265.06,
+      "uuid": "15f852fb-9193-4c98-bdbc-9dd4fcbcf26e"
+    }
+  },
+  "missing": {}
+}

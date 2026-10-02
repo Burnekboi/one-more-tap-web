@@ -1,0 +1,13 @@
+{
+  "ver": "1.0.1",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "8356f214-36ec-4b14-ac7b-55676157da1b",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "UIPopup"
+  }
+}

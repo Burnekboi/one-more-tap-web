@@ -1,0 +1,681 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "Main",
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_name": "Main",
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_globals": {
+      "__id__": 41
+    },
+    "_id": "4c0d371f-6eba-4feb-acc8-1abf1ce5af65",
+    "_prefab": {
+      "__id__": 42
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Canvas",
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 23
+      },
+      {
+        "__id__": 35
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 37
+      },
+      {
+        "__id__": 38
+      },
+      {
+        "__id__": 39
+      },
+      {
+        "__id__": 40
+      }
+    ],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 360,
+      "y": 640,
+      "z": 0
+    },
+    "_layer": 524288
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Camera",
+    "_parent": {
+      "__id__": 2
+    },
+    "_components": [
+      {
+        "__id__": 4
+      }
+    ],
+    "_layer": 524288
+  },
+  {
+    "__type__": "cc.Camera",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 3
+    },
+    "_priority": 0,
+    "_visibility": 41943040
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Background",
+    "_parent": {
+      "__id__": 2
+    },
+    "_components": [
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 7
+      }
+    ],
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 720,
+      "height": 1280
+    }
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "isAlignTop": true,
+    "isAlignBottom": true,
+    "isAlignLeft": true,
+    "isAlignRight": true,
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "GameplayHUD",
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 14
+      },
+      {
+        "__id__": 17
+      },
+      {
+        "__id__": 20
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 22
+      }
+    ],
+    "_active": true,
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "StageLabelNode",
+    "_parent": {
+      "__id__": 8
+    },
+    "_components": [
+      {
+        "__id__": 10
+      }
+    ],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -180,
+      "y": 560,
+      "z": 0
+    },
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 9
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 300,
+      "height": 40
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "ScoreLabelNode",
+    "_parent": {
+      "__id__": 8
+    },
+    "_components": [
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 13
+      }
+    ],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 200,
+      "y": 560,
+      "z": 0
+    },
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 9
+    },
+    "_string": "WEIRD MODE • STAGE 1/24",
+    "_fontSize": 24,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 16,
+      "g": 185,
+      "b": 129,
+      "a": 255
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 11
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 200,
+      "height": 40
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "TimerBarNode",
+    "_parent": {
+      "__id__": 8
+    },
+    "_components": [
+      {
+        "__id__": 15
+      },
+      {
+        "__id__": 16
+      }
+    ],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 500,
+      "z": 0
+    },
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 11
+    },
+    "_string": "SCORE: 0",
+    "_fontSize": 28,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 14
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 560,
+      "height": 24
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PromptCardNode",
+    "_parent": {
+      "__id__": 8
+    },
+    "_components": [
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 19
+      }
+    ],
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 410,
+      "z": 0
+    },
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "43015qRSbhGy4Sq89bOdGdo",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 14
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 17
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 600,
+      "height": 70
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "TargetsContainer",
+    "_parent": {
+      "__id__": 8
+    },
+    "_components": [
+      {
+        "__id__": 21
+      }
+    ],
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 17
+    },
+    "_string": "GET READY!",
+    "_fontSize": 26,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 8
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 720,
+      "height": 1280
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PopupLayer",
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [
+      {
+        "__id__": 24
+      },
+      {
+        "__id__": 27
+      },
+      {
+        "__id__": 30
+      }
+    ],
+    "_components": [
+      {
+        "__id__": 33
+      },
+      {
+        "__id__": 34
+      }
+    ],
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SettingsPopup",
+    "_parent": {
+      "__id__": 23
+    },
+    "_components": [
+      {
+        "__id__": 25
+      },
+      {
+        "__id__": 26
+      }
+    ],
+    "_active": false,
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 20
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 720,
+      "height": 800
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 24
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 560,
+      "height": 400
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "AchievementsPopup",
+    "_parent": {
+      "__id__": 23
+    },
+    "_components": [
+      {
+        "__id__": 28
+      },
+      {
+        "__id__": 29
+      }
+    ],
+    "_active": false,
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "43015qRSbhGy4Sq89bOdGdl",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 24
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 27
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 600,
+      "height": 700
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "RewardPopup",
+    "_parent": {
+      "__id__": 23
+    },
+    "_components": [
+      {
+        "__id__": 31
+      },
+      {
+        "__id__": 32
+      }
+    ],
+    "_active": false,
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "43015qRSbhGy4Sq89bOdGdm",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 27
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 30
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 540,
+      "height": 420
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 23
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 720,
+      "height": 1280
+    }
+  },
+  {
+    "__type__": "43015qRSbhGy4Sq89bOdGdk",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 23
+    },
+    "settingsPopup": {
+      "__id__": 24
+    },
+    "achievementsPopup": {
+      "__id__": 27
+    },
+    "rewardPopup": {
+      "__id__": 30
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "EffectsLayer",
+    "_parent": {
+      "__id__": 2
+    },
+    "_components": [
+      {
+        "__id__": 36
+      }
+    ],
+    "_layer": 1107296256
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 35
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 720,
+      "height": 1280
+    }
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 720,
+      "height": 1280
+    }
+  },
+  {
+    "__type__": "cc.Canvas",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_cameraComponent": {
+      "__id__": 4
+    },
+    "_alignCanvasWithScreen": true
+  },
+  {
+    "__type__": "51bd5pFf3dKzoOyUOHqEYAY",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    }
+  },
+  {
+    "__type__": "cc.Widget",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_alignFlags": 45,
+    "_target": null,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_horizontalCenter": 0,
+    "_verticalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_alignMode": 2,
+    "_lockFlags": 0
+  },
+  {
+    "__type__": "cc.SceneGlobals",
+    "ambient": {
+      "__type__": "cc.AmbientInfo"
+    },
+    "shadows": {
+      "__type__": "cc.ShadowsInfo"
+    },
+    "fog": {
+      "__type__": "cc.FogInfo"
+    },
+    "octree": {
+      "__type__": "cc.OctreeInfo"
+    },
+    "skin": {
+      "__type__": "cc.SkinInfo"
+    },
+    "postSettings": {
+      "__type__": "cc.PostSettingsInfo"
+    },
+    "_skybox": {
+      "__type__": "cc.SkyboxInfo"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "fileId": "scene-main-uuid-001"
+  }
+]

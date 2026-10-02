@@ -1,0 +1,60 @@
+import { Achievement } from './models';
+
+export const INITIAL_ACHIEVEMENTS: Achievement[] = [
+  {
+    id: 'first_tap',
+    title: 'First Tap',
+    description: 'Complete your first successful tap challenge.',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 1,
+  },
+  {
+    id: 'getting_started',
+    title: 'Getting Started',
+    description: 'Score 50 points in a single run.',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 50,
+  },
+  {
+    id: 'tap_master',
+    title: 'Tap Master',
+    description: 'Accumulate 100 total lifetime taps.',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 100,
+  },
+  {
+    id: 'combo_king',
+    title: 'Combo King',
+    description: 'Build a streak combo of 25.',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 25,
+  },
+  {
+    id: 'insane',
+    title: 'Insane',
+    description: 'Reach a 50 combo streak.',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 50,
+  },
+  {
+    id: 'weird_master',
+    title: 'Weird Conqueror',
+    description: 'Complete all 25 stages of Weird Mode.',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 25,
+  },
+  {
+    id: 'crazy_legend',
+    title: 'Crazy Legend',
+    description: 'Conquer all 50 stages of Crazy Mode.',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 50,
+  },
+];

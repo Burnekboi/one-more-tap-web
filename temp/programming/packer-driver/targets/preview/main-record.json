@@ -1,0 +1,3857 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 12582.7726,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/affine-transform",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/graphics",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/light-probe",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/mask",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-ammo",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/primitive",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/rich-text",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 14
+            },
+            "end": {
+              "line": 26,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 14
+            },
+            "end": {
+              "line": 27,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 14
+            },
+            "end": {
+              "line": 28,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 14
+            },
+            "end": {
+              "line": 29,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui-skew",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 14
+            },
+            "end": {
+              "line": 30,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 14
+            },
+            "end": {
+              "line": 31,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 14
+            },
+            "end": {
+              "line": 32,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/affine-transform"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/graphics"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/light-probe"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/mask"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/rich-text"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui-skew"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 17158.7444,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 146
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 151
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 155
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 152
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 146
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 139
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/migrate-canvas.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 97
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/GameManager.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
+              "column": 102
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/GameRoot.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 99
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/challenges.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 112
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/dailySeed.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 111
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/weirdStages.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 113
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/MathUtil.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 104
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/Music.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 101
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/SaveManager.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 107
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/ctx.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 7
+            },
+            "end": {
+              "line": 19,
+              "column": 99
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/flow.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 7
+            },
+            "end": {
+              "line": 20,
+              "column": 100
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/platform.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 7
+            },
+            "end": {
+              "line": 21,
+              "column": 104
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Confetti.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 7
+            },
+            "end": {
+              "line": 22,
+              "column": 108
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Particle.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 7
+            },
+            "end": {
+              "line": 23,
+              "column": 108
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Target.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
+              "column": 106
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/TimerBar.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 7
+            },
+            "end": {
+              "line": 25,
+              "column": 108
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/achievements.ts",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 7
+            },
+            "end": {
+              "line": 26,
+              "column": 112
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/constants.ts",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 7
+            },
+            "end": {
+              "line": 27,
+              "column": 109
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/models.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 106
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/AchievementsPanel.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 111
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/ButtonController.ts",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 110
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/Dashboard.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 7
+            },
+            "end": {
+              "line": 31,
+              "column": 103
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/NeonBackground.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 7
+            },
+            "end": {
+              "line": 32,
+              "column": 108
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/PopupManager.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 7
+            },
+            "end": {
+              "line": 33,
+              "column": 106
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/SettingsPanel.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 107
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/UIManager.ts",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 103
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/migrate-canvas.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/GameRoot.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/challenges.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/dailySeed.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/weirdStages.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/MathUtil.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/Music.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/SaveManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/ctx.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/flow.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/platform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Confetti.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Particle.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Target.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/TimerBar.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/achievements.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/models.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/AchievementsPanel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/ButtonController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/Dashboard.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/NeonBackground.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/PopupManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/SettingsPanel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/UIManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1786686114304.812,
+        "uuid": "11f3130e-c08c-47bb-a209-71d114594e6d"
+      },
+      "chunkId": "50ec684ab28702df18cf262b25c26ec6d899c3a5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-pass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 32
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1786686114346.7827,
+        "uuid": "6f94083c-fc92-438b-a15b-a20ec61666c7"
+      },
+      "chunkId": "b18130d786bcadd1d0cb653401afdf2ede79b799",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 40
+            },
+            "end": {
+              "line": 32,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 23
+            },
+            "end": {
+              "line": 34,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": {
+      "mTimestamp": {
+        "mtime": 1786686114350.7937,
+        "uuid": "de1c2107-70c8-4021-8459-6399f24d01c6"
+      },
+      "chunkId": "e2831fde95d58c09916d0f882742b7597544b8d1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": {
+      "mTimestamp": {
+        "mtime": 1786686114355.0012,
+        "uuid": "cbf30902-517f-40dc-af90-a550bac27cf1"
+      },
+      "chunkId": "7dd5f1b51da4ae6cb44c6f9d41d8fc719b109223",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 49
+            },
+            "end": {
+              "line": 31,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": {
+      "mTimestamp": {
+        "mtime": 1786686114362.465,
+        "uuid": "ff9b0199-ce04-4cfe-86cc-6c719f08d6e4"
+      },
+      "chunkId": "fd74c742a972dbbcd3691d204a338b19a4515b62",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 30
+            },
+            "end": {
+              "line": 31,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 7
+            },
+            "end": {
+              "line": 37,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1786686115263.0593,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "621a159ce4a7bac550092546e00c97e12458f12b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407181.8987,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746761"
+      },
+      "chunkId": "42f59bac52d006379f29926c8e6ca7913ebd0c5f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./GameRoot",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/GameRoot.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/GameRoot.ts": {
+      "mTimestamp": {
+        "mtime": 1790196670267.191,
+        "uuid": "51bd5a45-7f77-4ace-83b2-50e1ea118018"
+      },
+      "chunkId": "30ef8854f75fd0cba2c7d0000e3e1f6c95baf57c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 183
+            },
+            "end": {
+              "line": 1,
+              "column": 187
+            }
+          }
+        },
+        {
+          "value": "./template/models",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 90
+            },
+            "end": {
+              "line": 2,
+              "column": 109
+            }
+          }
+        },
+        {
+          "value": "./core/flow",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "./core/SaveManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 28
+            },
+            "end": {
+              "line": 5,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./core/platform",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 6,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./core/Music",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 22
+            },
+            "end": {
+              "line": 7,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./core/MathUtil",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 25
+            },
+            "end": {
+              "line": 8,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./challenges/challenges",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 39
+            },
+            "end": {
+              "line": 9,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./challenges/dailySeed",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 35
+            },
+            "end": {
+              "line": 10,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "./entities/TimerBar",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 25
+            },
+            "end": {
+              "line": 11,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./entities/Particle",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 32
+            },
+            "end": {
+              "line": 12,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./entities/Confetti",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 25
+            },
+            "end": {
+              "line": 13,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./entities/Target",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 23
+            },
+            "end": {
+              "line": 14,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./ui/NeonBackground",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 31
+            },
+            "end": {
+              "line": 15,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./template/constants",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 166
+            },
+            "end": {
+              "line": 16,
+              "column": 188
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/models.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/flow.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/SaveManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/platform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/Music.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/MathUtil.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/challenges.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/dailySeed.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/TimerBar.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Particle.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Confetti.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Target.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/NeonBackground.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/challenges.ts": {
+      "mTimestamp": {
+        "mtime": 1790125208112.4287,
+        "uuid": "98e555d1-e316-4529-ab83-176837e05e26"
+      },
+      "chunkId": "04381a3f6e022ae75e2042c429fd1d7ee3b9374a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../template/constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "./weirdStages",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 39
+            },
+            "end": {
+              "line": 3,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "./dailySeed",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 63
+            },
+            "end": {
+              "line": 4,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/weirdStages.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/dailySeed.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/dailySeed.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407387.7747,
+        "uuid": "808767b5-56ce-49a5-a4a6-a520da38e8c5"
+      },
+      "chunkId": "8dcd3054021f58f27425ca0593d5448f71989157",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/challenges/weirdStages.ts": {
+      "mTimestamp": {
+        "mtime": 1790048054125.3567,
+        "uuid": "6b7bfb5a-10c8-454f-a74a-46eccfa20697"
+      },
+      "chunkId": "2b75df4301a6d23b5bc73686eddc4b6d9897d6d0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/MathUtil.ts": {
+      "mTimestamp": {
+        "mtime": 1790021606142.458,
+        "uuid": "1db58745-56db-45ed-a105-1e74299f73d2"
+      },
+      "chunkId": "a3bcdd8cf14be15d437825c0f3e86657790d9dc1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 22
+            },
+            "end": {
+              "line": 1,
+              "column": 26
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/Music.ts": {
+      "mTimestamp": {
+        "mtime": 1790156008367.8403,
+        "uuid": "ae09521d-8374-429a-a401-6a80f2476734"
+      },
+      "chunkId": "63438c2ad149b2dd21a596000a20cb57973d2a91",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/SaveManager.ts": {
+      "mTimestamp": {
+        "mtime": 1790153205182.2917,
+        "uuid": "17fcb9cf-8742-466c-aa78-62e5271307ad"
+      },
+      "chunkId": "3a13179ae496f9d8cba19543f2bdc2050c97e346",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../template/achievements",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 37
+            },
+            "end": {
+              "line": 2,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "./platform",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/achievements.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/platform.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/ctx.ts": {
+      "mTimestamp": {
+        "mtime": 1790022821729.8064,
+        "uuid": "8a644de5-ab96-48a8-ae7c-7a202fcab7f9"
+      },
+      "chunkId": "f3f5163b989e6a30f56ff5d218c9c8b184d91cc6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/flow.ts": {
+      "mTimestamp": {
+        "mtime": 1790022914302.9282,
+        "uuid": "12acfb72-6fc0-44e7-a64b-598441dc0f1e"
+      },
+      "chunkId": "d97817666443556b853d6bc7bf1fe570efe57770",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../template/models",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "../template/constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 59
+            },
+            "end": {
+              "line": 3,
+              "column": 82
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/models.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/platform.ts": {
+      "mTimestamp": {
+        "mtime": 1790157326704.1326,
+        "uuid": "3d8f7f37-eba1-49d3-acc8-182f3aab9ae1"
+      },
+      "chunkId": "95a74988aeef59ccc2a2611745261bc20465c9bb",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Particle.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407450.1729,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce74676a"
+      },
+      "chunkId": "c5a22c5db85eed7a50e224b2fa3f69b34951842d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 55
+            },
+            "end": {
+              "line": 1,
+              "column": 59
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Target.ts": {
+      "mTimestamp": {
+        "mtime": 1790110284240.4404,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746769"
+      },
+      "chunkId": "4ee48fadafd21e9753f4aacdf298358f412af8f4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 81
+            },
+            "end": {
+              "line": 1,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "../core/MathUtil",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/MathUtil.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/TimerBar.ts": {
+      "mTimestamp": {
+        "mtime": 1790023127886.3164,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746768"
+      },
+      "chunkId": "1661c9b3072e0b8bf89449f074aef3e304cebd26",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../template/constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/achievements.ts": {
+      "mTimestamp": {
+        "mtime": 1790044031984.152,
+        "uuid": "670e73a3-5cb9-4ff6-a38b-cb10826b001b"
+      },
+      "chunkId": "8281bfff0db3de733fa6f09055eec9bf22cb8388",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/constants.ts": {
+      "mTimestamp": {
+        "mtime": 1790124946516.5059,
+        "uuid": "be92c329-28d3-46b0-a6c9-497b6f25ad7f"
+      },
+      "chunkId": "c1ba5834de9a6688dcc4614014a6eb04cc81e468",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/models.ts": {
+      "mTimestamp": {
+        "mtime": 1790115489193.5625,
+        "uuid": "01911cb4-0a68-4bf6-a2f9-5f53581d419a"
+      },
+      "chunkId": "010bdac1a6bd1bebb8b0aca1beda02b2ff2520ee",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/AchievementsPanel.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407498.342,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746766"
+      },
+      "chunkId": "7e65a3570f1431d932293af3e1e69b6035225680",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        },
+        {
+          "value": "../core/SaveManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/SaveManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/ButtonController.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407466.8494,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746762"
+      },
+      "chunkId": "583c1c26b89f21e95d158380602cc9731e96489a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        },
+        {
+          "value": "../core/Music",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/Music.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/Dashboard.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407498.342,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746763"
+      },
+      "chunkId": "071bc08ec01bfd9bd9bcc31362d0266187461193",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        },
+        {
+          "value": "../core/SaveManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/SaveManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/NeonBackground.ts": {
+      "mTimestamp": {
+        "mtime": 1790023664609.9856,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce74676b"
+      },
+      "chunkId": "cebccdcd33de889fc7a18c61cd65676f169094b4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 81
+            },
+            "end": {
+              "line": 1,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "../template/constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 44
+            },
+            "end": {
+              "line": 2,
+              "column": 67
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/template/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/PopupManager.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407486.9194,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746764"
+      },
+      "chunkId": "7e4262c0590c26a06f093785b5ce8232c19142ee",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        },
+        {
+          "value": "../core/Music",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/Music.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/SettingsPanel.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407514.4175,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746765"
+      },
+      "chunkId": "3ed74b507f020ea5e1c8c9d6f5199c04d3eee36d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        },
+        {
+          "value": "../core/Music",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/core/Music.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/UIManager.ts": {
+      "mTimestamp": {
+        "mtime": 1790017407526.0798,
+        "uuid": "43015a91-49b8-46cb-84aa-f3d6ce746767"
+      },
+      "chunkId": "1c245f7d9ed00471c5e8b5bec958660d42ff8e7b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../GameRoot",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "./PopupManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 29
+            },
+            "end": {
+              "line": 4,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./Dashboard",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/GameRoot.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/PopupManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/ui/Dashboard.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1790196691634,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/migrate-canvas.ts": {
+      "mTimestamp": {
+        "mtime": 1790022373203.2676,
+        "uuid": "7957dedf-8cb9-4c8f-9828-626bcf96ebde"
+      },
+      "chunkId": "9a3aa2c0f47c149a71bb665baaf496380a75201e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 75
+            },
+            "end": {
+              "line": 14,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 23
+            },
+            "end": {
+              "line": 15,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Christian%20Jake/OneDrive/Desktop/one-more-tap/assets/scripts/entities/Confetti.ts": {
+      "mTimestamp": {
+        "mtime": 1790046831160.45,
+        "uuid": "f01dbe22-37cd-47d1-af20-426d52673b2e"
+      },
+      "chunkId": "0c2a2bff3877b8b6825b36ad711b4ee1b447add3",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 55
+            },
+            "end": {
+              "line": 1,
+              "column": 59
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

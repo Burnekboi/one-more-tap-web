@@ -1,0 +1,6 @@
+{
+  "name": "One More Tap - Documentation & Studio Dashboard",
+  "description": "Hyper-casual reflex game featuring WEIRD MODE(easy) with 24 circle color stages, CRAZY MODE(hard) with 50 gauntlet stages, TikTok Mini Ads rewarded revive slot, continuous timer bank, and studio dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
